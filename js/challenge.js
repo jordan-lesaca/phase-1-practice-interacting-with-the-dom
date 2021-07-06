@@ -36,9 +36,7 @@ heart.addEventListener("click", function(){
     const listLi = document.querySelector(".likes")
 
     createLi.textContent = `${parse} has been liked ${i} times`
-
     listLi.appendChild(createLi)
-
     })
 
 })
