@@ -32,14 +32,12 @@ let i = 0
 heart.addEventListener("click", function(){
     const counter = document.getElementById("counter")
     const parse = parseInt(counter.innerText)
-
     const createLi = document.createElement("li")
     const listLi = document.querySelector(".likes")
 
-    createLi.textContent = `${parse} has been liked  ${i} times`
+    createLi.textContent = `${parse} has been liked ${i} times`
 
     listLi.appendChild(createLi)
-    console.log(listLi)
 
     })
 
