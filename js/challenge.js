@@ -74,13 +74,13 @@ pause.addEventListener("click", function(){
         minus.disabled = false
         heart.disabled = false
         pause.diabled = false
-        if(pause.innerHTML === "resume"){
-        pause.innerHTML = "pause"
-        setInterval(second, 1000)
-    } else if (pause.innerHTML === "pause"){
-        pause.innerHTML = "pause"
-        clearInterval(count)
-    }
+            if(pause.innerHTML === "resume"){
+                pause.innerHTML = "pause"
+                setInterval(second, 1000)
+            } else if (pause.innerHTML === "pause"){
+                pause.innerHTML = "pause"
+                clearInterval(count)
+            }
     }  
     
 })
